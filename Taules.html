@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .verde {
+            background-color: lightgreen;
+        }
+        .naranjaflojo {
+            background-color: rgb(244, 174, 89);
+        }
+        .azul {
+            background-color: rgb(35, 148, 186);
+        }
+        .verdefuerte {
+            background-color: rgb(33, 187, 33);
+        }
+        .verdeazul {
+            background-color: rgb(0, 255, 153);
+        }
+        .naranja {
+            background-color: rgb(242, 136, 6);
+        }
+        .morado {
+            background-color: rgb(136, 6, 242);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 9:00</td>
+                <td rowspan="2" class="verdeazul">DAM1 P+ED</td>
+                <td rowspan="2" class="verdeazul">DAM1 P+ED</td>
+                <td rowspan="2" class="verdefuerte">DAM1 SI</td>
+                <td rowspan="2" class="verdeazul">DAM1 P+ED</td>
+                <td rowspan="2" class="azul">IPOI</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td class="verde">AN</td>
+                <td class="verdefuerte">DAM1 SI</td>
+                <td class="verdefuerte">TUT</td>
+                <td class="naranjaflojo">DAM1 SGE</td>
+                <td class="verde">AN</td>
+            </tr>
+            <tr>
+                <td>11:00 - 11:30</td>
+                <td>Descans</td>
+                <td>Descans</td>
+                <td>Descans</td>
+                <td>Descans</td>
+                <td>Descans</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td rowspan="2" class="naranja">DAM1 BD</td>
+                <td rowspan="2" class="naranja">DAM1 BD</td>
+                <td rowspan="2" class="verdeazul">DAM1 P+ED</td>
+                <td class="naranjaflojo">Dam1 SGE</td>
+                <td rowspan="2" class="morado">LMSGI</td>
+            </tr>
+            <tr>
+                <td>12:30 - 13:30</td>
+                <td class="azul">IPOI</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
